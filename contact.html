@@ -1,0 +1,142 @@
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Nouvelle technologie de l'armée</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main1.css">
+
+    </head>
+    <body>
+
+      <header>
+
+        <h1><span>Nouvelles technologies de </span>
+          L'(Armée de terre)</h1>
+          <br>
+
+          <hr>
+
+      </header>
+
+      <div class="nav">
+        <nav>
+          <ul>
+
+            <li id="btn"><a  href="index.html">ACCUEIL</a></li>
+            <li id="btn"><a  href="video.html">VIDEO</a></li>
+            <li id="btn"><a  href="contact.html">CONTACT</a></li>
+
+        </nav>
+      </div>
+      <br>
+      <hr>
+    <div class="corps">
+
+<!-------------------F O M U L A I R E----------->
+
+<form class="formu" action="index.html" method="post">
+
+  <fieldset></fieldset>
+    <ol>
+      <li>
+
+        <label for="nom">NOM:</label>
+        <input id"nom" type="text" name="nom"
+         placeholder="prenom et nom" required autofocs >
+
+      </li>
+
+      <li>
+
+        <label for="email">Email:</label>
+        <input id="email" type="email" name="email"
+        placeholder="adressse@------.com" required>
+
+      </li>
+
+      <li>
+      <label for="telephone">TEL:</label>
+      <input id="tel: &nbsp;" type="text" name="telephone"
+      placeholder="example: +3312345678" required>
+      </li>
+
+    </ol>
+
+    </fieldset>
+
+
+
+  <fieldset class="message">
+
+  <legend></legend>
+    <ol>
+
+      <li>
+        <label for="message">Message</label>
+        <textarea name="message" rows="30" cols="80"
+         required></textarea>
+
+      </li>
+    </ol>
+    <input name="submit" type="submit" value="Envoyer"
+     onclick="formulaire();"/>
+
+  </fieldset>
+    </div>
+
+
+    </div>
+
+    <footer>
+          <div class="heure">
+            <script type="text/javascript">
+              var t = new Date()
+              document.write(t.getUTCHours())
+              document.write(":")
+              document.write(t.getUTCMinutes() + 1)
+              document.write(":")
+              document.write(t.getUTCSeconds())
+              document.write('s')
+            </script>
+          </div>
+
+          <div id="date">
+            <script type="text/javascript">
+            var d = new Date()
+            var j=d.getDate();
+            document.write(".")
+            var m=d.getMonth() + 1;
+            document.write(".")
+            var a=d.getFullYear();
+            </script>
+
+
+
+          </div>
+
+
+
+            <div class="resaux">
+              <ul>
+
+                <li><a href="#"><img src="img/twiter.png" alt="twiter"></a></li>
+                <li><a href="#"><img src="img/index.png" alt="facebook"></a></li>
+                <li><a href="#"><img src="img/google+.png" alt="google+"></a></li>
+                <li><a href="#"><img src="img/instagram.jpeg" alt="instagram"></a></li>
+                <li><a href="#"><img src="img/linkedin.png" alt="linkedin"></a></li>
+              </ul>
+            </div>
+
+      </footer>
+
+
+            <script src="js/main.js"></script>
+  </body>
+</html>
